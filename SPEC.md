@@ -1,0 +1,1 @@
+P est un programme en ArnoldC (dont voici la page esolangs : https://esolangs.org/wiki/ArnoldC) qui détermine si un nombre donné en paramètre de la fonction est un palindrome ou non. Le nombre ne doit pas dépasser 32767 car le langage ne supporte que des entiers signés de 16 bits. La fonction écrit soit "This is a palindrome number", soit "This is not a palindrome number".
