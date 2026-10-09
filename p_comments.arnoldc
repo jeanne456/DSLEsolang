@@ -1,0 +1,74 @@
+# Partie main + appel de la fonction palindrome avec l'argument 32723 (plus grand palindrome accepté par le programme)
+IT'S SHOWTIME
+  DO IT NOW palindrome 32723
+YOU HAVE BEEN TERMINATED 
+
+# Déclaration de la fonction palindrome
+LISTEN TO ME VERY CAREFULLY palindrome
+  # et de l'argument pris par la fonction
+  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE num 
+  # Mot-clé utilisé pour préciser que la fonction retourne quelque chose
+  GIVE THESE PEOPLE AIR 
+
+  # Déclaration d'un entier
+  HEY CHRISTMAS TREE r 
+  # Et initialisation de sa valeur
+    YOU SET US UP 0
+    
+  HEY CHRISTMAS TREE temp
+    YOU SET US UP num
+  HEY CHRISTMAS TREE temp10
+    YOU SET US UP 0
+    
+  HEY CHRISTMAS TREE tempPositif
+    YOU SET US UP @NO PROBLEMO  # @NO PROBLEMO correspond à true
+
+  # Début d'une boucle while
+  STICK AROUND tempPositif
+  
+    # Assignation d'une nouvelle valeur à temp10 (temp10 = temp%10)
+    GET TO THE CHOPPER temp10
+      HERE IS MY INVITATION temp
+      I LET HIM GO 10
+    ENOUGH TALK # Fin de l'assignation d'une nouvelle valeur
+
+    # r = r * 10 + temp10
+    GET TO THE CHOPPER r
+      HERE IS MY INVITATION r
+      YOU'RE FIRED 10
+      GET UP temp10
+    ENOUGH TALK
+
+    # temp = temp/10
+    GET TO THE CHOPPER temp
+      HERE IS MY INVITATION temp
+      HE HAD TO SPLIT 10
+    ENOUGH TALK
+
+    # tempPositif = temp > 0
+    GET TO THE CHOPPER tempPositif
+      HERE IS MY INVITATION temp
+      LET OFF SOME STEAM BENNET 0
+    ENOUGH TALK
+  CHILL # Fin de la boucle while
+
+  # Déclaration de la variable fin à la valeur true
+  HEY CHRISTMAS TREE fin 
+    YOU SET US UP @NO PROBLEMO
+
+  # fin vaut true si r==num, false sinon  
+  GET TO THE CHOPPER fin
+    HERE IS MY INVITATION r
+    YOU ARE NOT YOU YOU ARE ME num
+  ENOUGH TALK
+
+  # If fin
+  BECAUSE I'M GOING TO SAY PLEASE fin
+    # Print "This is a palindrome number"
+    TALK TO THE HAND "This is a palindrome number"
+  BULLSHIT # else
+    # Print "This is a palindrome number"
+    TALK TO THE HAND "This is not a palindrome number"
+  YOU HAVE NO RESPECT FOR LOGIC # EndIf
+  I'LL BE BACK fin # return fin
+HASTA LA VISTA, BABY # fin de déclarationd de la méthode
