@@ -1,0 +1,5 @@
+Le code fournit par le LLM n'est pas fonctionnel en lui-même, mais avec quelques modifications il donne le bon résultat.
+Il y a des sauts de ligne en trop après les instructions `LISTEN TO ME VERY CAREFULY`et `I'LL BE BACK`, l'instruction `BULLSHIT` a été transformée en `BULLSHOOT`, et à la fin de la déclaration de la méthode palindrome, il est écrit `ENOUGH TALK` (fin d'assignation d'une variable) au lieu de `HASTA LA VISTA, BABY`.
+Une fois ces modifications effectuées, le code compile et donne le résultat attendu.
+
+Les deux programmes ne fonctionnent pas tout à fait de la même manière, puisque le LLM assure que l'opérateur modulo n'existe pas en ArnoldC (alors qu'il existe bel et bien avec la commande `I LET HIM GO`). Il a donc besoin d'une variable en plus pour faire fonctionner son programme. Cependant j'ai ajouté une variable `tempPositif` qui vérifie que la variable `temp` est bien positive afin de continuer le while. Cette variable n'était pas nécessaire et le LLM s'en est passé en utilisant simplement `temp` comme condition pour continuer la boucle.
