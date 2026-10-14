@@ -1,7 +1,15 @@
-# Partie main + appel de la fonction palindrome avec l'argument 32723 (plus grand palindrome accepté par le programme)
+# Partie main 
 IT'S SHOWTIME
-  DO IT NOW palindrome 32723
-YOU HAVE BEEN TERMINATED 
+# Déclaration de la variable nombre où stocker le nombre à tester
+  HEY CHRISTMAS TREE nombre
+  YOU SET US UP @NO PROBLEMO # Initialisation à true
+# Récupération du nombre à tester
+  GET YOUR ASS TO MARS nombre
+  DO IT NOW
+  I WANT TO ASK YOU A BUNCH OF QUESTIONS AND I WANT TO HAVE THEM ANSWERED IMMEDIATELY # Permet de récupérer le nombre donné
+# Appel de la fonction palindrome 
+  DO IT NOW palindrome nombre
+YOU HAVE BEEN TERMINATED  
 
 # Déclaration de la fonction palindrome
 LISTEN TO ME VERY CAREFULLY palindrome
