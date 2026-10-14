@@ -5,3 +5,8 @@ L'instruction `HEY CHRISTMAS TREE` permet d'allouer l'espace mémoire d'une vari
 Ce langage utilise un registre de calcul pour modifier la mémoire initialisé par la commande `GET TO THE CHOPPER` qui permet de charget une valeur ou une variable dans le registre.
 Cette valeur est ensuite manipulée de manière séquentielle avec des opérations arithmétiques comme `GET UP` pour une addition.
 L'instruction `ENOUGH TALK` permet finalement d'assigner le résultat final dans l'emplacement mémoire de la variable cible.
+
+
+Mon programme commence par initialiser les variables utilisées pour le calcul du palindrome (`r` est le chiffre reconstruit à l'envers, `temp` vaut le chiffre d'entrée (`num`) que l'on va diviser par 10 à chaque boucle, `temp10` est le modulo 10 de `temp`, et `tempPositif` est un booléen qui vérifie si `temp` est toujours positif). 
+Ensuite commence la boucle `while` à condition que`tempPositif` soit à `@NO PROBLEMO` (`true`). Dans cette boucle, on calcule le modulo 10 de `temp`, puis on reconstruit le chiffre à l'envers dans `r` à l'aide du résultat et onmet à jour les variables pour continuer la boucle.
+Une fois sortis de la boucle, on vérifie si le chiffre retourné et l'original sont égaux et on affiche le message adapté.
