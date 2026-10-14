@@ -18,10 +18,23 @@ if [ ! -f "$PROGRAM" ]; then
     exit 1
 fi
 
+ARNOLD_JAR="ArnoldC.jar"
+
+if [ ! -f "$ARNOLD_JAR" ]; then
+    echo "❌ Erreur : L'interpréteur '$ARNOLD_JAR' est introuvable."
+    exit 1
+fi
+
+# Extraire le nom du fichier sans l'extension .arnoldc
+base_program_name=$(basename "$PROGRAM" .arnoldc)
+
+echo "⚙️ Compilation de $PROGRAM..."
+java -jar "$ARNOLD_JAR" "$PROGRAM"
+
 # 3. Parcourir tous les fichiers de test (.in)
 tests_found=0
 
-for input_file in *.in; do
+for input_file in ./tests/*.in; do
     # Éviter l'erreur si aucun fichier .in n'est trouvé
     [ -e "$input_file" ] || continue
 
@@ -32,8 +45,8 @@ for input_file in *.in; do
     echo "----------------------------------------"
     echo "▶️ Exécution du test : $base_name"
 
-    # 4. Exécution du programme en injectant le fichier .in sur l'entrée standard (<)
-    generated_output=$(java -jar "$ARNOLD_JAR" "$PROGRAM" < "$input_file")
+    # Exécution du fichier .class compilé avec la redirection du fichier .in
+    generated_output=$(java "$base_program_name" < "$input_file")
    
 
     echo "--- Résultat obtenu ---"
