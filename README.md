@@ -9,3 +9,5 @@ ou simplement `./run.sh p.arnoldc` pour exécuter les tests.
 Attention, le langage ne supporte que les entiers signés sur 16 bits et le programme ne fonctionne que pour les nombres positifs, l'entier à tester doit donc être compris entre 0 et +32 767.
 
 Le langage ne supporte pas les commentaires, j'ai donc déposé une version fonctionnelle sans commentaires (p.arnoldc), et une version non fonctionnelle avec des commentaires signalés par le caractère # (p_comments.arnoldc).
+
+Je précise également que le document run.sh a été généré par IA
